@@ -1,0 +1,11 @@
+pipeline{
+    agent any
+    stages{
+        stage("build jar"){}
+        stage("deploy"){}
+        stage("send jar to artifactory"){}
+
+
+    }
+
+}
